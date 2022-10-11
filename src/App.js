@@ -47,7 +47,7 @@ export class App extends Component {
         <Route exact path="/crypto" element={<Newss setProgress={this.setProgress}  key="crypto"  q="Crypto"/>}/> 
         <Route exact path="/business" element={<Newss setProgress={this.setProgress}  key="business" q="Business"/>}/> 
         <Route exact path="/politics" element={<Newss setProgress={this.setProgress}  key="politics" q="Politics"/>}/> 
-        <Route exact path="/publichealth" element={<Newss setProgress={this.setProgress}  key="PublicHealth" q="publichealth"/>}/> 
+       
         <Route exact path="/entertainment" element={<Newss setProgress={this.setProgress}  key="Entertainment" q="entertainment"/>}/> 
         <Route exact path="/pakistan" element={<Newss setProgress={this.setProgress}  key="pakistan" q="Pakistan"/>}/> 
         <Route exact path="/search" element={<Newss setProgress={this.setProgress}  key={this.state.a} q={this.state.a}/>}/> 
